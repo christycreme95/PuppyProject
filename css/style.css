@@ -1,0 +1,16 @@
+/* Christy Eang */
+body{
+    background-image: url(../images/bgtexture.jpg);
+}
+.Christynav{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.christyNavPad{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.fugaz{
+    font-family: 'Fugaz One', cursive;
+}

@@ -14,3 +14,9 @@ body{
 .fugaz{
     font-family: 'Fugaz One', cursive;
 }
+.christyHero{
+    background-image: url(../images/homeHero.jpg);
+    width: auto;
+    height: 600px;
+    margin-bottom: 100px;
+}

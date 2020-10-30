@@ -1,5 +1,6 @@
 /* Christy Eang */
 body{
+    font-family: MontaukRegular;
     background-image: url(../images/bgtexture.jpg);
 }
 .Christynav{
@@ -16,4 +17,22 @@ body{
     width: auto;
     height: 600px;
     margin-bottom: 100px;
+}
+.christyHomeBg{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    padding-top: 24px;
+}
+
+.christyMSG{
+    font-family: 'Fugaz One', cursive;
+    font-size: 45px;
+    /* This is supposed to be 50 but it doesn't look right */
+}
+.christyRed{
+    color: #5F002B;
+}
+@font-face{
+    font-family: MontaukRegular;
+    src: url(../Montauk/Montauk-Regular.otf);
 }

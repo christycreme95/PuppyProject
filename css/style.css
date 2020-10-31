@@ -1,4 +1,10 @@
-/* Christy Eang */
+/* 
+ Jorge Lopez
+    Ken Martinez
+    Christy Eang
+    Project #3 Puppy Restaurant
+
+*/
 body{
     font-family: MontaukRegular;
     background-image: url(../images/bgtexture.jpg);
@@ -27,6 +33,7 @@ body{
 .christyMSG{
     font-family: 'Fugaz One', cursive;
     font-size: 45px;
+    color: #5F002B;
     /* This is supposed to be 50 but it doesn't look right */
 }
 .christyRed{

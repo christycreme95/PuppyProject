@@ -20,7 +20,6 @@ body{
 }
 .christyHero{
     background-image: url(../images/homeHero.jpg);
-    width: auto;
     height: 600px;
     margin-bottom: 100px;
 }
@@ -38,6 +37,9 @@ body{
 }
 .christyRed{
     color: #5F002B;
+}
+.christyMarbtm{
+    margin-top: 60px;
 }
 @font-face{
     font-family: MontaukRegular;

@@ -55,6 +55,15 @@ body{
 .christyMarbtm{
     margin-top: 60px;
 }
+.navBarTxt{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.navbarDrop{
+    background-image: url(../images/bgtexture.jpg);
+    
+}
 @font-face{
     font-family: MontaukRegular;
     src: url(../Montauk/Montauk-Regular.otf);

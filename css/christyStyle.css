@@ -9,6 +9,20 @@ body{
     font-family: MontaukRegular;
     background-image: url(../images/bgtexture.jpg);
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
+.Christymenu{
+    color: #5F002B;
+    font-size: 50px;
+    background-color: #FFFFFF;
+    font-family: 'Fugaz One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73px;
+}
 .Christynav{
     color: #5F002B;
     font-family: 'Fugaz One', cursive;
@@ -41,7 +55,17 @@ body{
 .christyMarbtm{
     margin-top: 60px;
 }
+.navBarTxt{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.navbarDrop{
+    background-image: url(../images/bgtexture.jpg);
+    
+}
 @font-face{
     font-family: MontaukRegular;
     src: url(../Montauk/Montauk-Regular.otf);
 }
+

@@ -13,6 +13,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.end{
+    display: flex;
+    justify-content: end;
+}
 .Christymenu{
     color: #5F002B;
     font-size: 50px;

@@ -8,6 +8,7 @@
 button:focus{
     outline: none;
 }
+
 body {
     font-family: MontaukRegular;
     background-image: url(../images/bgtexture.jpg);
@@ -93,6 +94,9 @@ hr{
     color: #5F002B;
     font-family: 'Fugaz One', cursive;
     font-size: 20px;
+}
+.Christynav:hover{
+    color: black;
 }
 
 .christyHero {

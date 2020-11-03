@@ -37,7 +37,7 @@ hr{
 }
 /* Menu page */
 
-.Christymenu {
+.Christyh1 {
     color: #5F002B;
     font-size: 50px;
     background-color: #FFFFFF;
@@ -125,4 +125,11 @@ hr{
 
 .christyMarbtm {
     margin-top: 60px;
+}
+/*                    Photos Page                             */
+.whiteBg{
+    border: 10px solid white;
+}
+.photoPg{
+    padding: 0 !important;
 }

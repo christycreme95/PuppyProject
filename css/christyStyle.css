@@ -69,6 +69,11 @@ hr{
     font-size: 30px;
     text-align: end;
 }
+.stretch{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
 
 /* Nav */
 

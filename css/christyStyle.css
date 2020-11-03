@@ -5,6 +5,9 @@
     Project #3 Puppy Restaurant
 
 */
+button:focus{
+    outline: none;
+}
 
 body {
     font-family: MontaukRegular;

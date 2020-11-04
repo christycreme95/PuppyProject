@@ -5,15 +5,39 @@
     Project #3 Puppy Restaurant
 
 */
-body{
+button:focus{
+    outline: none;
+}
+
+body {
     font-family: MontaukRegular;
     background-image: url(../images/bgtexture.jpg);
 }
-.center{
+
+.fugaz {
+    font-family: 'Fugaz One', cursive;
+}
+
+.center {
     display: flex;
     justify-content: center;
 }
-.Christymenu{
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../Montauk/Montauk-Regular.otf);
+}
+hr{
+    border-bottom: 1px solid #5F002B;
+}
+/* Menu page */
+
+.Christymenu {
     color: #5F002B;
     font-size: 50px;
     background-color: #FFFFFF;
@@ -23,36 +47,84 @@ body{
     align-items: center;
     height: 73px;
 }
-.Christynav{
+
+.christyCardTitle {
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
+    color: #5F002B;
+}
+.christyCardTxt1{
+    font-size: 30px;
+    color: #5F002B;
+}
+.christyCardTxt2{
+    font-size: 15px;
+    color: #5F002B;
+}
+
+.christyCardTitle2 {
+    font-size: 15px;
+    color: #5F002B;
+    margin-bottom: 40px;
+}
+.christyCardNum{
+    color: #5F002B;
+    font-size: 30px;
+    text-align: end;
+}
+.stretch{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+/* Nav */
+
+.navBarTxt {
     color: #5F002B;
     font-family: 'Fugaz One', cursive;
     font-size: 20px;
 }
 
-.fugaz{
-    font-family: 'Fugaz One', cursive;
+.navbarDrop {
+    background-image: url(../images/bgtexture.jpg);
 }
-.christyHero{
+
+.Christynav {
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.Christynav:hover{
+    color: black;
+}
+
+.christyHero {
     background-image: url(../images/homeHero.jpg);
     height: 600px;
     margin-bottom: 100px;
 }
-.christyHomeBg{
+
+
+/* Home Page */
+.christyHomeBg {
     background-color: #FFFFFF;
     color: #5F002B;
     padding-top: 24px;
 }
 
-.christyMSG{
+.christyMSG {
     font-family: 'Fugaz One', cursive;
     font-size: 45px;
     color: #5F002B;
     /* This is supposed to be 50 but it doesn't look right */
 }
-.christyRed{
+
+.christyRed {
     color: #5F002B;
 }
-.christyMarbtm{
+
+.christyMarbtm {
     margin-top: 60px;
 }
 .navBarTxt{
@@ -69,3 +141,7 @@ body{
     src: url(../Montauk/Montauk-Regular.otf);
 }
 
+.kenWhiteBg
+{
+ background-color: #FFFFFF;
+}

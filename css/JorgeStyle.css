@@ -12,16 +12,15 @@ body{
     font-family: MontaukRegular;
     src: url(../Montauk/Montauk-Regular.otf);
 }
-.banner{
-    
-    background-color: white;
-    
-  
-}
-.bg{
-    background-color: white;
-    border: none;
-}
+.caterImage{
+    width: 100%;
+    height: 100%;
+ }
+ .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+ }
 .cateringBanner{
     color: #5F002B;
     font-size: 50px;
@@ -29,20 +28,36 @@ body{
     height: 73px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background-color: white;
 }
 .parTitle{
     font-size: 30px;
     color: #5F002B;
     line-height: 44px;
     font-family: 'Fugaz One', cursive;
-    
+    background-color: white;
+    margin-bottom: 0px;
+    padding-top: 15px;
+
 }
 .paraText{
     font-size: 20px;
     color: #5F002B;
     line-height: 22px;
     font-family: MontaukRegular;
+    background-color: white;
+    padding: 3%;
+
+    
 };
 
-
+/* @media (max-width: 1200px) {
+    .change {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+  } */

@@ -146,3 +146,23 @@ hr{
  background-color: #FFFFFF;
 }
 
+.storyFont{
+    color: #5F002B;
+    font-size: 50px;
+}
+
+.storyPara
+{
+    color: #5F002B;
+}
+
+.teamHeader 
+{
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.teamName
+{
+    font-size: 30px;
+}

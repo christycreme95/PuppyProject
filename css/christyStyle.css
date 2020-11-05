@@ -37,7 +37,7 @@ hr{
 }
 /* Menu page */
 
-.Christyh1 {
+.Christymenu {
     color: #5F002B;
     font-size: 50px;
     background-color: #FFFFFF;
@@ -98,6 +98,7 @@ hr{
 .Christynav:hover{
     color: black;
 }
+
 .christyHero {
     background-image: url(../images/homeHero.jpg);
     height: 600px;
@@ -134,4 +135,22 @@ hr{
     padding: 0 !important;
     display: flex;
     justify-content: center;
+}
+.navBarTxt{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+}
+.navbarDrop{
+    background-image: url(../images/bgtexture.jpg);
+    
+}
+@font-face{
+    font-family: MontaukRegular;
+    src: url(../Montauk/Montauk-Regular.otf);
+}
+
+.kenWhiteBg
+{
+ background-color: #FFFFFF;
 }

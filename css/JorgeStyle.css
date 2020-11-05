@@ -48,11 +48,9 @@ body{
     font-family: MontaukRegular;
     background-color: white;
     padding: 3%;
-
-    
 };
 
-/* @media (max-width: 1200px) {
+/* @media (max-width: 1500px) {
     .change {
       flex-direction: column;
       display: flex;

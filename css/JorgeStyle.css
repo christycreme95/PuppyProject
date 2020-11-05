@@ -41,6 +41,7 @@ body{
     padding-top: 15px;
 
 }
+
 .paraText{
     font-size: 20px;
     color: #5F002B;
@@ -50,12 +51,3 @@ body{
     padding: 3%;
 };
 
-/* @media (max-width: 1500px) {
-    .change {
-      flex-direction: column;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-     
-    }
-  } */

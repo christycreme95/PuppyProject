@@ -153,4 +153,10 @@ hr{
 .kenWhiteBg
 {
  background-color: #FFFFFF;
+/*                    Photos Page                             */
+.whiteBg{
+    border: 10px solid white;
+}
+.photoPg{
+    padding: 0 !important;
 }

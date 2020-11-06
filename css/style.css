@@ -51,11 +51,11 @@ hr{
 
 .christyCardTitle {
     font-family: 'Fugaz One', cursive;
-    font-size: 30px;
+    font-size: 28px;
     color: #5F002B;
 }
 .christyCardTxt1{
-    font-size: 30px;
+    font-size: 28px;
     color: #5F002B;
 }
 .christyCardTxt2{
@@ -70,7 +70,7 @@ hr{
 }
 .christyCardNum{
     color: #5F002B;
-    font-size: 30px;
+    font-size: 28px;
     text-align: end;
 }
 .stretch{

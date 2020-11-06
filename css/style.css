@@ -28,6 +28,9 @@ body {
     display: flex;
     justify-content: end;
 }
+.noMar{
+    margin: 0px !important;
+}
 
 
 hr{

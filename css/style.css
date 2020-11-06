@@ -5,6 +5,7 @@
     Project #3 Puppy Restaurant
 
 */
+
 button:focus{
     outline: none;
 }
@@ -18,20 +19,20 @@ body {
     font-family: 'Fugaz One', cursive;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
+@font-face{
+    font-family: MontaukRegular;
+    src: url(../Montauk/Montauk-Regular.otf);
 }
 
 .end {
     display: flex;
     justify-content: end;
 }
-
-@font-face {
-    font-family: MontaukRegular;
-    src: url(../Montauk/Montauk-Regular.otf);
+.noMar{
+    margin: 0px !important;
 }
+
+
 hr{
     border-bottom: 1px solid #5F002B;
 }
@@ -50,11 +51,11 @@ hr{
 
 .christyCardTitle {
     font-family: 'Fugaz One', cursive;
-    font-size: 30px;
+    font-size: 28px;
     color: #5F002B;
 }
 .christyCardTxt1{
-    font-size: 30px;
+    font-size: 28px;
     color: #5F002B;
 }
 .christyCardTxt2{
@@ -69,7 +70,7 @@ hr{
 }
 .christyCardNum{
     color: #5F002B;
-    font-size: 30px;
+    font-size: 28px;
     text-align: end;
 }
 .stretch{
@@ -127,6 +128,14 @@ hr{
 .christyMarbtm {
     margin-top: 60px;
 }
+/*                    Photos Page                             */
+.whiteBg{
+    border: 10px solid white;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
 .navBarTxt{
     color: #5F002B;
     font-family: 'Fugaz One', cursive;
@@ -136,12 +145,71 @@ hr{
     background-image: url(../images/bgtexture.jpg);
     
 }
-@font-face{
-    font-family: MontaukRegular;
-    src: url(../Montauk/Montauk-Regular.otf);
-}
+
 
 .kenWhiteBg
 {
  background-color: #FFFFFF;
+}
+
+.storyFont{
+    color: #5F002B;
+    font-size: 50px;
+}
+
+.storyPara
+{
+    color: #5F002B;
+    font: 20px;
+}
+
+.teamHeader 
+{
+    color: #5F002B;
+    font-size: 30px;
+}
+
+.teamName
+{
+    font-size: 30px;
+}
+
+
+/* Jorge's Stuff */
+.parTitle{
+    font-size: 30px;
+    color: #5F002B;
+    line-height: 44px;
+    font-family: 'Fugaz One', cursive;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+.caterImage{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+ }
+ 
+.paraText{
+    font-size: 20px;
+    color: #5F002B;
+    line-height: 22px;
+    background-color: white;
+    padding: 3%;
+}
+.cateringBanner{
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
 }
